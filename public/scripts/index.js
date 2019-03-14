@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    var option = undefined;
+    var option;
     var usersList = [];
     $("#submit").click(function(e){
         e.preventDefault();
