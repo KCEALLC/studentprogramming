@@ -1,0 +1,13 @@
+{
+  "name": "studentprogramming",
+  "version": "1.0.0",
+  "description": "Sign up for Programming Courses",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Nathan Malone",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {}
+}
