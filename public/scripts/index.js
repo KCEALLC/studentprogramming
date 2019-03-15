@@ -12,19 +12,16 @@ $(document).ready(function() {
         usersList.push({name: firstName, lastname: lastName, course: courseJS});
         
         // sort array
-        
         for (i = 0; i < usersList.length;i++) {
             $("#first").append("<p>" + usersList[i].name + "</p>");
             $("#last").append("<p>" + usersList[i].lastname + "</p>");
             $("#course").append("<h1>" + usersList[i].course + "</h1>");
             usersList.length = 0;
         }
-
         $("#course").text();
         $("#first").text();
         $("#last").text();
         $("#form")[0].reset();
-
             
     });
 
@@ -32,6 +29,7 @@ $(document).ready(function() {
         e.preventDefault();
         option = $(this).html();
         console.log($(this).html());
+        console.log(e);
     });
 });
 
